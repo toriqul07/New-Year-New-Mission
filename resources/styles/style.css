@@ -256,90 +256,89 @@ p,
     margin-left: 20px;
 }
 
-.balck-background .number-website .number {
+
+
+.number {
     display: flex;
-    margin-right: 800px;
+    align-items: center;
+    /* justify-content: space-between; */
 }
 
-.balck-background .number-website .number .ph {
-    margin-top: 40px;
-    margin-bottom: 20px;
-    /* padding-top: 10px; */
-
+.website {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* justify-content: space-between; */
 }
 
-.balck-background .number-website .number .eleven-digit {
-    margin-top: 30px;
-    margin-left: 10px;
-    /* padding-top: 10px; */
-
+h4 {
+    margin: 0;
+    padding: 0;
 }
 
-/* .balck-background .number-website .number .eleven-digit{
-    margin-top: 80px;
-    /* margin-left: 40px; */
-/* padding-top: 10px; */
-
+.horizonal-class {
+    width: 1320px;
+    /* height: 1px; */
 }
 
-*/ .balck-background .number-website .website img {
-    margin-top: 20px;
+.social-platforms {
+    display: flex;
+    gap: 10px;
+    margin-left: 500px;
+}
+
+.final {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    justify-content: space-around;
+}
+
+
+.number-website {
+    margin-right: 120px;
+}
+
+
+.text-item h4 {
+    color: #FFF;
+    font-family: Inter;
+    font-style: normal;
+}
+
+.Unsubscribe p {
+    margin-right: 10px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.All-Rights-Reserved h6 {
+    margin-right: 10px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-around;
 }
 
 .balck-background {
-    display: flex;
-    justify-content: space-between;
     background: #070211;
-    width: 1900px;
-    height: 509px;
-    flex-shrink: 0;
 }
 
-.balck-background .text-item h4 {
-    color: #FFF;
-    font-family: Inter;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 40px;
-    /* margin-top: 20px; */
-    /* 166.667% */
+.eleven-digit h4 {
+    color: #FFF
 }
 
-.balck-background .number-website .number h4 {
-    color: #FFF;
-    font-family: Inter;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 40px;
-    /* 166.667% */
-}
-
-.balck-background .number-website .website .web-addrees {
-    color: #FFF;
-    font-family: Inter;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 0px;
-    margin-left: 40px;
-    margin-top: 1px;
-    /* 166.667% */
-}
-
-.balck-background .horizontal-line{
-    background: #F00;
-}
-.number{
-    display: flex;
-    align-items: center;
-}
-.website{
-    display: flex;
-    align-items: center;
-}
-h4{
-    margin: 0;
-    padding: 0;
+.web-addrees h4 {
+    color: #FFF
 }

@@ -348,3 +348,84 @@ h4 {
 .web-addrees h4 {
     color: #FFF
 }
+
+.seven {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    gap: 40px;
+}
+
+.one h6 {
+    color: #F00;
+    /* text-align: center; */
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 30px;
+}
+
+.one h3 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-left: 30px;
+}
+
+.one p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 32px;
+    /* 160% */
+    margin-left: 30px;
+}
+
+.three h3 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 60px;
+}
+
+.three p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 32px;
+    /* 160% */
+    margin-left: 60px;
+    /* 160% */
+}
+
+.three img {
+    width: 140px;
+    height: 140px;
+    flex-shrink: 0;
+    margin-left: 60px;
+}
+
+.two img {
+    border-radius: 463px;
+    border: 15px solid #F00;
+    padding: 20px;
+}
+
+.seven{
+    background:#FFF;
+    margin-left: 15px;
+    margin-right: 15px;
+}
